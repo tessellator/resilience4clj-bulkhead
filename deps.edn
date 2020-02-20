@@ -1,0 +1,4 @@
+{:paths ["src"]
+
+ :deps {io.github.resilience4j/resilience4j-bulkhead {:mvn/version "1.2.0"}
+        org.clojure/clojure {:mvn/version "1.9.0"}}}
