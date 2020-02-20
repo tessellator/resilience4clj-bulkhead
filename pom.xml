@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>tessellator</groupId>
   <artifactId>resilience4clj-bulkhead</artifactId>
-  <version>0.2.0</version>
+  <version>0.3.0</version>
   <name>resilience4clj-bulkhead</name>
   <description>A small Clojure wrapper around the resilience4j Bulkhead module</description>
   <licenses>
@@ -15,7 +15,7 @@
   <scm>
     <connection>scm:git:git://github.com/tessellator/resilience4clj-bulkhead.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/tessellator/resilience4clj-bulkhead.git</developerConnection>
-    <tag>25ff8ae3da78594d3b7d6052c2ba584479614d73</tag>
+    <tag>f7501b44f1e5c0021d8a233473e4fbed9d7287d4</tag>
     <url>https://github.com/tessellator/resilience4clj-bulkhead</url>
   </scm>
   <dependencies>
@@ -27,10 +27,10 @@
     <dependency>
       <groupId>io.github.resilience4j</groupId>
       <artifactId>resilience4j-bulkhead</artifactId>
-      <version>1.2.0</version>
+      <version>1.3.1</version>
     </dependency>
   </dependencies>
-    <build>
+  <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
       <resource>
